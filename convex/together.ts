@@ -59,7 +59,7 @@ export const chat = internalAction({
           },
           { role: 'user', content: transcript },
         ],
-        model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo',
+        model: 'Qwen/Qwen2.5-7B-Instruct-Turbo',
         response_model: { schema: NoteSchema, name: 'SummarizeNotes' },
         max_tokens: 1000,
         temperature: 0.6,
